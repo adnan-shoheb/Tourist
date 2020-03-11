@@ -1,0 +1,173 @@
+.body-size {
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    width: 98%;
+    height: 100%;
+}
+
+.nature-video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    /* for position fixed min-height & width is required normly v use width height*/
+}
+
+
+/* Header and navigation css */
+
+.header-nav {
+    position: absolute;
+    /*without this navbar will not appear*/
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 101%;
+    height: 105%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.top-image {
+    width: 4%;
+    margin: 0px 500px 0px 600px;
+}
+
+.top-image:hover {
+    display: none;
+}
+
+.top-image:hover+center {
+    display: block;
+}
+
+center {
+    font-size: larger;
+    text-transform: uppercase;
+    outline-color: black;
+    display: none;
+}
+
+.nav {
+    border-bottom: 2px solid white;
+    margin: 0px 0px 10px 0px;
+}
+
+.nav:hover {
+    border-bottom: 2px solid rgb(64, 238, 11);
+}
+
+.unordered-nav-css,
+.list-nav-css,
+.anchore {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 0px 0px 0px 0px;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.anchore:hover {
+    color: #5AA6C7;
+}
+
+
+/* aside css */
+
+.aside-css {
+    position: absolute;
+    margin-top: 60px;
+    height: 100%;
+}
+
+.unordered-aside-css .aside-list {
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+.unordered-aside-css:hover,
+.aside-list:hover {
+    opacity: 1.0;
+}
+
+.aside-button {
+    border-radius: 10px;
+    background-color: rgba(3, 3, 3, 0.048);
+    color: rgb(243, 236, 236);
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    transition: 0.7s;
+    /*transition works only if I have hover effect*/
+    margin: 20px;
+    border: 2px soild white;
+}
+
+.aside-button:hover {
+    background-image: repeating-linear-gradient(rgba(79, 186, 194, 0.521), rgba(87, 119, 189, 0.521), rgba(126, 41, 206, 0.3));
+    color: rgb(255, 255, 255);
+    width: 150px;
+}
+
+
+/* Section Start */
+
+.section-css {
+    background-color: rgba(25, 26, 26, 0.9);
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 220px;
+    padding: 0px 0px 0px 10px;
+    width: 85%;
+    height: 100%;
+    border-left: 2px solid white;
+}
+
+.section-css:hover {
+    border-left: 2px solid green;
+}
+.para{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-indent: 100px;
+    text-align: justify;
+    columns: 3;
+    column-rule: 2px white solid;
+    animation-name: para;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+/* @keyframes para{
+    0%{font-size: larger;}
+    10%{font-size: 30px;}
+    20%{font-size: 40px;}
+    40%{font-size: 60px;}
+    60%{font-size: 80px;}
+    80%{font-size: 100px;}
+    100%{font-size: 120px;}
+}  */
+.para:hover{
+    font-size: 20px;
+    color: whitesmoke;
+    columns: 1;
+
+}
+
+
+/* footer-css */
+
+.footer-css {
+    position: absolute;
+    margin: 688px 0px 0px 8px;
+    background-color: rgb(11, 12, 12);
+    color: antiquewhite;
+    width: 101.4%;
+    height: 5%;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 10px;
+}

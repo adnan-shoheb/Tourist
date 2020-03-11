@@ -1,0 +1,198 @@
+.body-size {
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    width: 98%;
+    height: 100%;
+}
+
+.nature-video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    /* for position fixed min-height & width is required normly v use width height*/
+}
+
+
+/* Header and navigation css */
+
+.header-nav {
+    position: absolute;
+    /*without this navbar will not appear*/
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 101%;
+    height: 105%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.top-image {
+    width: 4%;
+    margin: 0px 500px 0px 600px;
+}
+
+.top-image:hover {
+    display: none;
+}
+
+.top-image:hover+center {
+    display: block;
+}
+
+center {
+    font-size: larger;
+    text-transform: uppercase;
+    outline-color: black;
+    display: none;
+}
+
+.nav {
+    border-bottom: 2px solid white;
+    margin: 0px 0px 10px 0px;
+}
+
+.nav:hover {
+    border-bottom: 2px solid rgb(64, 238, 11);
+}
+
+.unordered-nav-css,
+.list-nav-css,
+.anchore {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 0px 0px 0px 0px;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.anchore:hover {
+    color: #5AA6C7;
+}
+
+
+/* aside css */
+
+.aside-css {
+    position: absolute;
+    margin-top: 60px;
+    height: 100%;
+}
+
+.unordered-aside-css .aside-list {
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+.unordered-aside-css:hover,
+.aside-list:hover {
+    opacity: 1.0;
+}
+
+.aside-button {
+    border-radius: 10px;
+    background-color: rgba(3, 3, 3, 0.048);
+    color: rgb(243, 236, 236);
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    transition: 0.7s;
+    /*transition works only if I have hover effect*/
+    margin: 20px;
+    border: 2px soild white;
+}
+
+.aside-button:hover {
+    background-image: repeating-linear-gradient(rgba(79, 186, 194, 0.521), rgba(87, 119, 189, 0.521), rgba(126, 41, 206, 0.3));
+    color: rgb(255, 255, 255);
+    width: 150px;
+}
+
+
+/* Section Start */
+
+.section-css {
+    background-color: rgba(84, 87, 87, 0.5);
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 220px;
+    width: 85%;
+    height: 100%;
+    border-left: 2px solid white;
+}
+
+.section-css:hover {
+    border-left: 2px solid green;
+}
+
+#container1 {
+    position: relative;
+    /*it makes the td content to be at a relative position without this the content will appear at the end*/
+}
+
+.images {
+    margin: 30px 0px 0px 40px;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    border: 2px solid rgb(229, 233, 230);
+}
+
+.images:hover {
+    border: 2px solid rgb(27, 38, 199);
+}
+
+#overlay {
+    position: absolute;
+    /*without this overlay will appear at the back of img*/
+    margin: 42px 12px 0px 0px;
+    right: 0px;
+    /*without this overlay will appear at the back of img*/
+    background-color: rgba(100, 104, 105, 0.5);
+    ;
+    overflow: hidden;
+    /*if I remove this the text content will be visible on the img directly*/
+    width: 300px;
+    height: 0;
+    transition: 1s ease-out;
+}
+
+#container1:hover #overlay {
+    height: 250px;
+    /* transform: rotateY(360deg); it makes the content to rotate 360deg */
+    transition: 1s ease-in;
+    box-shadow: 2px 6px 8px 6px rgba(199, 30, 30, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+    color: rgba(13, 13, 14, 0.993);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin: 40px 0px 0px 0px;
+    background-color: rgba(145, 145, 151, 0.6);
+    /* -webkit-transform: translate(-50%, -50%,-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(50%, 50%,50%, 50%);   */
+    text-indent: 40px;
+    text-align: justify;
+}
+
+
+/* footer-css */
+
+.footer-css {
+    position: absolute;
+    margin: 688px 0px 0px 8px;
+    background-color: rgb(11, 12, 12);
+    color: antiquewhite;
+    width: 101.4%;
+    height: 5%;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 10px;
+}

@@ -1,0 +1,390 @@
+.body-size {
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    width: 98%;
+    height: 100%;
+}
+
+.nature-video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    /* for position fixed min-height & width is required normly v use width height*/
+}
+
+
+/* Header and navigation css */
+
+.header-nav {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 99%;
+    height: 105%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.top-image {
+    width: 4%;
+    margin: 0px 500px 0px 600px;
+}
+
+.top-image:hover {
+    display: none;
+}
+
+.top-image:hover+center {
+    display: block;
+}
+
+center {
+    font-size: larger;
+    text-transform: uppercase;
+    outline-color: black;
+    display: none;
+}
+
+.nav {
+    border-bottom: 2px solid white;
+    margin: 0px 0px 10px 0px;
+}
+
+.nav:hover {
+    border-bottom: 2px solid rgb(64, 238, 11);
+}
+
+.unordered-nav-css,
+.list-nav-css,
+.anchore {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 0px 0px 0px 0px;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.anchore:hover {
+    color: #5AA6C7;
+}
+
+
+/* aside css */
+
+.aside-css {
+    position: fixed;
+    margin-top: 60px;
+    height: 100%;
+}
+
+.unordered-aside-css .aside-list {
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+.unordered-aside-css:hover,
+.aside-list:hover {
+    opacity: 1.0;
+}
+
+.aside-button {
+    border-radius: 10px;
+    background-color: rgba(3, 3, 3, 0.048);
+    color: rgb(243, 236, 236);
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    transition: 0.7s;
+    /*transition works only if I have hover effect*/
+    margin: 20px;
+    border: 2px soild white;
+}
+
+.aside-button:hover {
+    background-image: repeating-linear-gradient(rgba(79, 186, 194, 0.521), rgba(87, 119, 189, 0.521), rgba(126, 41, 206, 0.3));
+    color: rgb(255, 255, 255);
+    width: 150px;
+}
+
+
+/* Section Start */
+
+.section-css {
+    background-color: rgba(5, 5, 5, 0.8);
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 220px;
+    width: 85%;
+    height: 100%;
+    border-left: 2px solid white;
+}
+
+.section-css:hover {
+    border-left: 2px solid green;
+}
+
+.image2 {
+    /* border-top: 2px solid; */
+    position: fixed;
+    margin: 60px 0px 0px 50px;
+}
+
+
+/* first jhingalala */
+
+.image-size1 {
+    min-width: 30%;
+    min-height: 10%;
+    position: absolute;
+    border-radius: 900px/1000px 900px 500px 500px;
+    animation: image 8s infinite;
+    margin: 0px 0px 0px -5px;
+}
+
+@keyframes image {
+    from {
+        transform: rotateZ(15deg)
+    }
+    to {
+        transform: rotateZ(-15deg);
+    }
+}
+
+.border1 {
+    height: 100px;
+    position: fixed;
+    margin: 2px 0px 0px 180px;
+    border-left: 2px solid white;
+    animation: overframe 10s infinite;
+}
+
+@keyframes overframe {
+    from {
+        transform: rotateZ(-15deg)
+    }
+    to {
+        transform: rotateZ(15deg)
+    }
+}
+
+
+/* second jingalala */
+
+.image-size2 {
+    min-width: 30%;
+    min-height: 10%;
+    position: absolute;
+    margin: 150px 0px 0px 200px;
+    border-radius: 900px/1000px 900px 500px 500px;
+    animation: image2 15s infinite;
+}
+
+@keyframes image2 {
+    from {
+        transform: rotateZ(15deg)
+    }
+    to {
+        transform: rotateZ(-15deg);
+    }
+}
+
+.border2 {
+    height: 280px;
+    position: fixed;
+    margin: 0px 0px 0px 360px;
+    border-left: 2px solid white;
+    animation: overframe1 15s infinite;
+}
+
+@keyframes overframe1 {
+    from {
+        transform: rotateZ(-18deg)
+    }
+    to {
+        transform: rotateZ(18deg)
+    }
+}
+
+
+/* third jingalala */
+
+.image-size3 {
+    min-width: 30%;
+    min-height: 10%;
+    position: absolute;
+    margin: 80px 0px 0px 468px;
+    border-radius: 900px/1000px 900px 500px 500px;
+    animation: image 10s infinite;
+}
+
+@keyframes image {
+    from {
+        transform: rotateZ(15deg)
+    }
+    to {
+        transform: rotateZ(-15deg);
+    }
+}
+
+.border3 {
+    height: 150px;
+    position: fixed;
+    margin: 0px 0px 0px 650px;
+    border-left: 2px solid white;
+    animation: overframe 10s infinite;
+}
+
+@keyframes overframe {
+    from {
+        transform: rotateZ(15deg)
+    }
+    to {
+        transform: rotateZ(-15deg)
+    }
+}
+
+
+/* fourth jingalala */
+
+.image-size4 {
+    min-width: 30%;
+    min-height: 10%;
+    position: absolute;
+    margin: 50px 0px 0px 780px;
+    border-radius: 900px/1000px 900px 500px 500px;
+    animation: image 5s infinite;
+}
+
+@keyframes image {
+    from {
+        transform: rotateZ(-15deg)
+    }
+    to {
+        transform: rotateZ(15deg);
+    }
+}
+
+.border4 {
+    height: 200px;
+    position: fixed;
+    margin: 0px 0px 0px 950px;
+    border-left: 2px solid white;
+    animation: overframe 5s infinite;
+}
+
+@keyframes overframe {
+    from {
+        transform: rotateZ(20deg)
+    }
+    to {
+        transform: rotateZ(-20deg)
+    }
+}
+
+
+/* Fifth jingalala */
+
+.image-size5 {
+    min-width: 30%;
+    min-height: 10%;
+    position: absolute;
+    border-radius: 900px/1000px 900px 500px 500px;
+    animation: image1 15s infinite;
+    margin: 280px 0px 0px 450px;
+}
+
+@keyframes image1 {
+    from {
+        transform: rotateZ(15deg)
+    }
+    to {
+        transform: rotateZ(-15deg);
+    }
+}
+
+.border5 {
+    height: 145px;
+    position: fixed;
+    margin: 450px 0px 0px 650px;
+    border-left: 2px solid white;
+    animation: overframe 15s infinite;
+}
+
+@keyframes overframe {
+    from {
+        transform: rotateZ(-15deg)
+    }
+    to {
+        transform: rotateZ(15deg)
+    }
+}
+
+
+/* Sixth jingalala */
+
+.image-size6 {
+    min-width: 30%;
+    min-height: 10%;
+    position: absolute;
+    border-radius: 900px/1000px 900px 500px 500px;
+    animation: overframe1 10s infinite;
+    margin: 275px 0px 0px -43px;
+}
+
+@keyframes image1 {
+    from {
+        transform: rotateZ(-15deg)
+    }
+    to {
+        transform: rotateZ(15deg);
+    }
+}
+
+.border6 {
+    height: 145px;
+    position: fixed;
+    margin: 450px 0px 0px 150px;
+    border-left: 2px solid white;
+    animation: overframe 10s infinite;
+}
+
+
+/* Seventh jingalala */
+
+.image-size7 {
+    min-width: 30%;
+    min-height: 10%;
+    position: absolute;
+    border-radius: 900px/1000px 900px 500px 500px;
+    animation: images 10s infinite;
+    margin: 275px 0px 0px 780px;
+}
+
+@keyframes images {
+    from {
+        transform: rotateZ(20deg)
+    }
+    to {
+        transform: rotateZ(-20deg);
+    }
+}
+
+.border7 {
+    height: 145px;
+    position: fixed;
+    margin: 450px 0px 0px 1000px;
+    border-left: 2px solid white;
+    animation: overframez 5s infinite;
+}
+
+@keyframes overframez {
+    from {
+        transform: rotateZ(-15deg)
+    }
+    to {
+        transform: rotateZ(15deg)
+    }
+}
